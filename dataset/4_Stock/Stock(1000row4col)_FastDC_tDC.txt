@@ -1,0 +1,31 @@
+./dataset/4_Stock/Stock(1000row4col)_FastDC_tDC
+Number of constraints: 16
+The average interestingness level of constraints: 0.277948439064064
+The number of constraints ranging from 0.9 to 1 points: 0
+The number of constraints ranging from 0.8 to 0.9 points: 0
+The number of constraints ranging from 0.7 to 0.8 points: 0
+The number of constraints ranging from 0.6 to 0.7 points: 0
+The number of constraints ranging from 0.5 to 0.6 points: 0
+The number of constraints ranging from 0.0 to 0.5 points: 16
+Time taken to get evidences: 1.817167043685913s
+Time taken to search constraints: 0.05086779594421387s
+The1-th threshold: [-0.7437111517367461, 0.7211135371179035]
+The2-th threshold: [-0.6454135338345862, 0.5519916142557648]
+The3-th threshold: [-0.6813532513181016, 0.7050113378684801]
+The4-th threshold: [-0.7575690607734804, 0.7106209850107067]
+t1.High = t2.High 2 ^ t1.Close > t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.Open > t2.Open 1        0.2891519019019019
+t1.High = t2.High 2 ^ t1.Low > t2.Low 3 ^ t1.Close < t2.Close 4 ^ t1.Open < t2.Open 1        0.2734936936936937
+t1.Low = t2.Low 3 ^ t1.Close > t2.Close 4 ^ t1.High < t2.High 2 ^ t1.Open > t2.Open 1        0.28857522522522516
+t1.Low = t2.Low 3 ^ t1.Open < t2.Open 1 ^ t1.High > t2.High 2 ^ t1.Close < t2.Close 4        0.2728711211211211
+t1.Open = t2.Open 1 ^ t1.Low > t2.Low 3 ^ t1.Close < t2.Close 4 ^ t1.High > t2.High 2        0.28832227227227225
+t1.Open = t2.Open 1 ^ t1.Close > t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.High < t2.High 2        0.27261956956956956
+t1.Close = t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.Open > t2.Open 1 ^ t1.High < t2.High 2        0.2725113113113113
+t1.Close > t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.Open > t2.Open 1 ^ t1.High < t2.High 2        0.3106527027027027
+t1.Close > t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.Open > t2.Open 1 ^ t1.High ¡Ü t2.High 2        0.2672399399399399
+t1.Close > t2.Close 4 ^ t1.Low < t2.Low 3 ^ t1.Open ¡Ý t2.Open 1 ^ t1.High < t2.High 2        0.266672022022022
+t1.Close > t2.Close 4 ^ t1.High < t2.High 2 ^ t1.Open > t2.Open 1 ^ t1.Low ¡Ü t2.Low 3        0.2668401901901902
+t1.Open > t2.Open 1 ^ t1.High < t2.High 2 ^ t1.Low < t2.Low 3 ^ t1.Close ¡Ý t2.Close 4        0.2666324324324324
+t1.Low > t2.Low 3 ^ t1.Close < t2.Close 4 ^ t1.Open < t2.Open 1 ^ t1.High > t2.High 2        0.31069964964964963
+t1.Low > t2.Low 3 ^ t1.Close < t2.Close 4 ^ t1.Open < t2.Open 1 ^ t1.High ¡Ý t2.High 2        0.26728688688688684
+t1.Low > t2.Low 3 ^ t1.Close < t2.Close 4 ^ t1.High > t2.High 2 ^ t1.Open ¡Ü t2.Open 1        0.26671896896896896
+t1.High > t2.High 2 ^ t1.Open < t2.Open 1 ^ t1.Close < t2.Close 4 ^ t1.Low ¡Ý t2.Low 3        0.26688713713713713
