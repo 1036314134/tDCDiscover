@@ -183,14 +183,14 @@ def use_test_fuction(filename, line, row):
     # test_function(8, True, I, header, filename, line, row)
 
 
-def test_different_line(filename, row):
+def test_different_row(filename, col):
     for i in range(200, 2200, 200):
-        use_test_fuction(filename, i, row)
+        use_test_fuction(filename, i, col)
 
 
-def test_different_row(filename, line):
+def test_different_col(filename, row):
     for i in range(6, 16, 1):
-        use_test_fuction(filename, line, i)
+        use_test_fuction(filename, row, i)
 
 
 def test_all_data(filename_all):
@@ -225,3 +225,27 @@ if __name__ == '__main__':
                     ]
 
     test_all_data(filename_all)
+
+    # test_different_row(filename_all[1], 8)
+    #
+    # test_different_row(filename_all[1], 10)
+    #
+    # test_different_row(filename_all[1], 12)
+    #
+    # test_different_col(filename_all[1], 500)
+    #
+    # test_different_col(filename_all[1], 750)
+    #
+    # test_different_col(filename_all[1], 1000)
+    #
+    # test_different_row(filename_all[2], 8)
+    #
+    # test_different_row(filename_all[2], 10)
+    #
+    # test_different_row(filename_all[2], 12)
+    #
+    # test_different_col(filename_all[2], 500)
+    #
+    # test_different_col(filename_all[2], 750)
+    #
+    # test_different_col(filename_all[2], 1000)
